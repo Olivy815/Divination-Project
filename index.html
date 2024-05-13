@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fortune Teller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1>Need Advice?</h1>
+        <form onsubmit="fetchFortune(); return false;">
+            <input type="text" id="userQuestion" placeholder="Type your question...">
+            <input type="submit" value="Lets go! ">
+        </form>
+        <div id="fortuneDisplay">Recieve a laugh or thought!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
